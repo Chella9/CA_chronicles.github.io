@@ -1,130 +1,134 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes|Oswald|Raleway&display=swap');
 
 body{
-    background-image: url("paper_background1.jpg");
-        margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 #header{
-background-image: url("paper_background1.jpg");
+    background-image: url("paper_background1.jpg");
     height: 150px;
     line-height:150px;
 }
 
-#header a{
-color: Black;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    
-}
-
 #header a:hover{
-color: white;
+    color: white;
 }
 
 #header-title {
-display: block;
+    display: block;
     float: left;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
 }
 
 #header-nav {
-display: block;
+    display: block;
     float: right;
     margin-top:0;
+    font-family: 'Cinzel';
+    text-transform: uppercase;
     }
 
 #header-nav li{
-display: inline;
+    display: inline;
     padding-left: 20px;
     
 }
 
 .container{
-max-width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .post-container:nth-child(even){
-background-color:#f2f2f2
+    background-color:#f2f2f2
 }
 
 .post, .about{
-max-width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 60px 0;
 }
 
 .about {
-text-align:center;
+    text-align:center;
+}
+
+.about-title{
+    font-family: 'Oswald';
 }
 
 .post-author img{
-width: 50px;
+    width: 50px;
     height: 50px;
     vertical-align: middle;
 }
 
 .post-author img, .about-author img{
-border-radius: 100px; 
+    border-radius: 50%; 
 }
 
 .post-author span{
-margin-left: 16px;
-    
+    margin-left: 16px;
 }
 
 .post-date{
-color: #9E9E9E;
+    color: #9E9E9E;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
+.post-title{
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+    font-size: 25px;
+}
+
 h1, h2, h3, h4{
-color:#333;
+    color:#333;
 }
 
 p{
-line-height: 1.5
+    line-height: 1.5
 }
 
 .post-content:nth-child(2){
-background-color: red
+    background-color: red
 }
 
 
 #footer{
-background-image: url("paper_background1.jpg");
+    background-image: url("paper_background1.jpg");
     padding: 50px 0;
 }
 
 #footer h4{
-color:black;
-text-transform: uppercase;
+    color:black;
+    text-transform: uppercase;
     letter-spacing:0.1em;
    
 }
 
 #footer p{
-color:black;
+    color:black;
 }
 
 .column {
-min-width:300px;
-display: inline-block;
-vertical-align: top;
+    min-width:300px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 a {
-color: #1abc9c;
+    color: black;
     text-decoration: none;
 }
 
 a:hover{
-color:#F6A623;
+    color:white;
 }
