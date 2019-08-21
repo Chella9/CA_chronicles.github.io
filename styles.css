@@ -13,7 +13,7 @@ background-image: url("paper_background1.jpg");
 }
 
 #header a{
-color: black;
+color: Black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -99,19 +99,19 @@ background-color: red
 
 
 #footer{
-background-color: #2f2f2f;
+background-image: url("paper_background1.jpg");
     padding: 50px 0;
 }
 
 #footer h4{
-color:white;
+color:black;
 text-transform: uppercase;
     letter-spacing:0.1em;
    
 }
 
 #footer p{
-color:white;
+color:black;
 }
 
 .column {
